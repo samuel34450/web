@@ -1,0 +1,31 @@
+body{
+    
+    color: rgb(255, 255, 255);
+    background-image: url(imagenes/concepto-textura-papel-tapiz-fondo-material-madera_53876-42925.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: c;
+
+}
+
+img{
+    margin: 10px;
+    width: 300px;
+
+}
+ 
+  
+
+a{
+    margin: 5px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.781);
+}
+
+
+cotenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

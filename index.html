@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css"> 
+    <title>VIAJE EDU Villa GRAL BEL</title>
+</head>
+
+<body>
+    <header class="agrupacion">
+        <h2>VIAJE EDUCATIVO A VILLA GRAL BELGRANO</h2>
+        <div id="div4">
+            <img src="imagenes/logo del cole.png" alt="Logo del colegio">
+            <a href="https://www.instagram.com/ipet363?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">ipet363</a>
+        </div>
+    </header>
+    
+    <section>
+        <div id="div2">
+            <h3 class="h3">Motivo del viaje:</h3>
+            <p class="p1">
+                Este viaje se hizo el día xx/xx/xx con el objetivo de que los estudiantes tengan mejor 
+                conocimiento de la economía argentina en cuestión del impacto de las industrias artesanales nacionales.
+            </p>
+        </div>
+    </section>
+    
+    <section>
+        <nav>
+            <h3 class="h3">LUGARES DEL VIAJE</h3>
+            <div><a href="lacteos.html" class="lugar">Fábrica de Lácteos El Cantón de las Sierras</a></div>
+            <div><a href="azafran.html" class="lugar">Campos de Azafrán del Mediterráneo</a></div>
+            <div><a href="cerveza.html" class="lugar">MAK BIER</a></div>
+            <div><a href="chocolate.html" class="lugar">Fábrica de Chocolates Capilla Vieja</a></div>
+        </nav>
+    </section>
+    
+    <section>
+        <div class="container-fluid">
+            <div class="contenedor">   
+                
+                <!-- LÁCTEOS -->
+                <img class="imag" src="imagenes/lacteos.avif" alt="Lácteos El Cantón de las Sierras">
+                <div class="titulo">
+                    <h3>El Cantón de las Sierras (Lácteos)</h3>
+                    <div id="contenido" style="display:none;">
+                        <p>· ¿Qué es? Fábrica artesanal de lácteos.</p>
+                        <p>· Ubicación: Villa General Belgrano, Córdoba, Argentina.</p>
+                        <p>· Fundación: 2011 (por los hermanos Natalia y Hernán Fernández).</p>
+                        <p>· Productos Destacados: Yogur natural y dulce de leche artesanal sin aditivos.</p>
+                        <p>· Filosofía: Producción a pequeña escala y artesanal.</p>
+                    </div>
+                    <button onclick='muestra_oculta("contenido")' class="btn btn-primary">+</button>
+                </div>
+
+                <!-- AZAFRÁN -->
+                <img class="imag" src="imagenes/azafran.jpg" alt="Campos de Azafrán">
+                <div class="titulo">
+                    <h3>Campos de Azafrán del Mediterráneo</h3>
+                    <div id="contenido2" style="display:none;">
+                        <p>¿Qué es? Emprendimiento de cultivo y comercialización de azafrán ("oro rojo").</p>
+                        <p>• Ubicación: Villa General Belgrano, Córdoba, Argentina.</p>
+                        <p>• Innovación: Cultivo intensivo en cajones de altura.</p>
+                        <p>• Productos: Hebras de azafrán puro y derivados (miel, cosméticos, etc.).</p>
+                        <p>• Negocio: Red de productores e inversores, con visitas guiadas.</p>
+                    </div>
+                    <button onclick='muestra_oculta("contenido2")' class="btn btn-primary">+</button>
+                </div>            
+
+                <!-- CERVEZA -->
+                <img class="imag" src="imagenes/cerveceria.jpg" alt= "MAK BiER">
+                <div class="titulo">
+                    <h3>Fábrica De Cerveza MAK Bier</h3>
+                    <div id="contenido3" style="display:none;">
+                        <p>¿Qué es? Cervecería artesanal con tradición familiar alemana.</p>
+                        <p>• Ubicación: Villa General Belgrano, Córdoba, Argentina.</p>
+                        <p>• Historia: Iniciada en 1959 en Porto Alegre, Brasil, trasladada a Córdoba.</p>
+                        <p>• Variedades: Estilos alemanes, ingleses y especiales (mango, barrica, etc.).</p>
+                        <p>• Atractivo: Visitas guiadas gratuitas sobre elaboración artesanal.</p>
+                    </div>
+                    <button onclick='muestra_oculta("contenido3")' class="btn btn-primary">+</button>
+                </div>
+
+                <!-- CHOCOLATE -->
+                <img class="imag" src="imagenes/chocolates-capilla-vieja-4.jpg" alt="Fábrica de Chocolates Capilla Vieja">
+                <div class="titulo">
+                    <h3>Fábrica de Chocolates Capilla Vieja</h3>
+                    <div id="contenido4" style="display:none;">
+                        <p>• Actividad: Fábrica tradicional de chocolates y alfajores.</p>
+                        <p>• Ubicación: Villa General Belgrano, Córdoba, Argentina (Av. Julio A. Roca 176).</p>
+                        <p>• Historia: Una de las primeras chocolaterías de la localidad (desde 1980).</p>
+                        <p>• Elaboración: Producción 100% artesanal.</p>
+                        <p>• Productos: Chocolate en rama, tabletas, bombones, trufas y alfajores.</p>
+                        <p>• Experiencia: Parte del "Camino del Chocolate" de la ciudad.</p>
+                    </div>
+                    <button onclick='muestra_oculta("contenido4")' class="btn btn-primary">+</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="div1">
+            <h5>Materias Involucradas:</h5>
+            <p class="p3">Geografía y Programación</p>
+            <p>Samuel Heman - 5°B - Marialena Gatti, Andrea Chiappori</p>
+        </div>     
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="principal.js"></script>
+</body>
+</html>

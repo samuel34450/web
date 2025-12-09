@@ -1,0 +1,35 @@
+body{
+color: rgb(255, 255, 255);
+background-image: url(imagenes/images\ \(2\)-fotor-enhance-20251020111510.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-position: c;
+
+}
+.contenedor{
+    
+    display: flex;
+}
+
+
+.p2{
+    color: rgb(0, 0, 0);
+    width: 500px;
+}
+
+
+img{
+    margin: 5px;
+    border-radius: 25px;
+    width: 250px;
+    height: 150px;
+}       
+
+.opaco{
+    background-color: aliceblue;
+    opacity: 50%;
+    width: 480px;
+    height: 80px;
+}
+

@@ -1,0 +1,22 @@
+body {
+    width: 1900px;
+background-image: url(imagenes/texturizado.jpg);
+background-size: cover;
+background-position: c;
+
+  }
+
+
+
+h1, h2, h3, p {
+    color: rgb(0, 0, 0);
+    text-align:left;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+
+.imgs{
+  width: 200px;
+
+}
